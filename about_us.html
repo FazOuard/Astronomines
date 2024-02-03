@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="about_us.css" rel="stylesheet" >
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="js/app.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="logo_astronomines.png">
+    <link rel="icon" href="logo_astronomines.png" type="image/x-icon">
+
+
+    <title>Astronomines|About us</title>
+</head>
+<body>
+    <img src="darknight.png" alt="dark" id="dark">
+    <header>
+        <img src="LOGO_BLANC.png" alt="logo-club-astro" class="logo">
+        
+        <ul >
+           
+            <li><a href="gallery.html">Gallery</a></li>
+            
+            
+        </ul>
+       
+    
+    </header>
+    <section class="About_us">
+        <div class="video-container">
+            <video src="short-video.mp4" width="1350px" height="auto"  autoplay loop muted>Video not diplayed!</video>
+        </div>
+       
+        <h1>Get to know us</h1>
+        
+        <div class="content-wrapper">
+            <embed src="galaxyanim.gif" class="gif">
+
+            <p>Since the dawn of humanity, space has always held a particular allure for humans, especially as the sky presents itself as an embellished abstract canvas adorned with twinkling stars and planets that frame the space, rendering it a fascinating beauty. <br><br>
+                
+                The more humans gaze at the sky, the more they are captivated by space, a distant and mysterious world. Today, science enables humans to explore this space filled with mysteries, as well as truths yet undiscovered. The idea of establishing this club aligns with a vision of uncovering these truths through social media and events.<br><br>
+                Astronomines came into existence in 2016, founded by engineering students from diverse majors at Ecole Superieur des Mines de Rabat in Rabat, Morocco.
+             </p>
+            
+           
+            
+        </div>
+        
+    </section>
+
+    <section class="Nos_evenements">
+        <h1>Our events:</h1>
+        <div class="Cosmomelody">
+            <img src="cosmomelody.png" alt="Event">
+            <p >
+                <span style="color: rgb(177, 104, 211)"><strong>Cosomomelody</strong></span>
+                <br>
+                <br>
+                Cosmomelody is one of the most renowned events organized by Astronomines, which combines space and art. <br><br>
+                It features conferences hosted by prestigious astronomers and influencers in the field.  <br><br>
+                Followed by the presentation of astronomical concepts through mockups created by our members and collaborators.
+            </p>
+        </div>
+
+        <div class="Cosmonight">
+            <img src="cosmonight.png" alt="Event">
+            <p >
+                    <span style="color: rgb(177, 104, 211)"><strong>Cosomonight</strong></span>
+                    <br>
+                    <br>
+                    Cosmonight is one of the events of Astronomines, taking place during the night. <br><br>
+                    The event encompasses conferences led by esteemed astronomers and influential figures in the field, followed by an observation session of the dark sky through telescopes.  <br><br>
+                    The night concludes with an engaging movie session.
+                    
+            </p>
+        </div>  
+            
+        
+        
+        <div class="Ajitefhm">
+            <img src="ajichere7e3.png" alt="Event">
+            <p >
+                <span style="color: rgb(177, 104, 211)"><strong>Chra7li achnu fhamti</strong></span>
+                <br>
+                <br>
+                Chra7li achnu fhamti is a competition organised by Astronomines where participants 
+                are tasked with explaining a scientific concept in a straightforward manner using Darija, the Moroccan dialect.
+            </p>
+        </div>
+    </section>
+    <section class="contact-us">
+        <h1>Contact form</h1>
+        <form action="https://formspree.io/f/mzbndjla" method="POST" >
+            <input type="text" name="Name" placeholder="Full Name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <textarea name="Message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+        <footer class="footer">
+            <div class="footer_container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Our collaborators:</h4>
+                        <ul>
+                            <li><a href="https://www.instagram.com/p/Cl7ERkJqhg-/" target="_blank">Ensias AI Club</a></li>
+                            <li><a href="https://www.facebook.com/CLUB.F.D.S2022" target="_blank">Festivale des sciences</a></li>
+                            <li><a href="https://www.facebook.com/SpaceCuriosities" target="_blank">Space Curiosities</a></li>
+                            <li><a href="https://www.facebook.com/MoroccanAssociationOfPhysics" target="_blank">Moroccan Association Of Physics</a></li>
+                            <li><a href="https://www.facebook.com/NOCMOROCCO" target="_blank">NOC Morocco</a></li>
+                            <li><a href="https://www.facebook.com/InfoBdarija.9" target="_blank">InfoBdarija</a></li>
+                            <li><a href="https://www.facebook.com/mwebcommunity" target="_blank">Moroccan Web Community </a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <div class="logos">
+                            <a href="https://www.instagram.com/enim_media_/" target="_blank"><img src="ENIM.png" alt="ENIMlogo"></a>
+                            <img src="logo_astronomines.png" alt="AstroLOGO">
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        
+                        <div class="social-media">
+                            <h4>Join us:</h4>
+                            <a href="https://www.facebook.com/Astronomines" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/astronomines/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            function showDescription(element) {
+            const description = element.querySelector('.description');
+            description.style.display = 'block';
+            }
+
+            function hideDescription(element) {
+                const description = element.querySelector('.description');
+                description.style.display = 'none';
+            }
+        </script>
+        
+                
+        
+       
+        
+    </footer>
+</body>
+</html>
