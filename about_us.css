@@ -107,6 +107,9 @@ body {
     align-items: center;
     justify-content: space-between; 
     margin: 0 5rem;
+    
+    
+
 }
 
 .About_us h1 {
@@ -166,7 +169,10 @@ body {
     font-variant: normal;
     font-weight: 400;
     color: rgb(193, 197, 197);
+    
+    
 
+    
     
   
 }
@@ -176,30 +182,7 @@ body {
     margin: 0px 40px;
     height:auto;
 }
-#members {
-    
-    width: 60%;
-    height: auto;
-    background-size: cover; 
-    background-position: center;
-    position: center;
-  margin-top: 2.5rem;
-  margin: 100px 300px;
-  box-shadow: 0 1.5rem 4rem rgba(29, 21, 31, 0.4);
-  
-  z-index: 10;
-  border: 2px solid #b434db; 
-    box-sizing: border-box;
-    box-shadow: 0 0 15px rgba(50, 153, 223, 0.5); 
-    transition: border-color 0.3s ease, transform 0.3s ease;
-  outline-offset: 2rem;
-  object-fit: cover;
-  
-}
-#members:hover{
-    border-color: #2980b9;
-    transform: scale(1.05);
-}
+
 .Nos_evenements {
     padding-left: 48px;
     padding-right: 48px;
@@ -275,7 +258,7 @@ body {
     justify-content: center;
     align-items:center;
     flex-direction:column;
-    background:rgba(0, 0, 0, 0.5);
+    background:rgba(31, 16, 28, 0.8);
     
 }
 .container .Cosmomelody:hover,.Cosmonight:hover,.Ajitefhm:hover{
