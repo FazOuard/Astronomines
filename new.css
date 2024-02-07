@@ -28,9 +28,7 @@ p{
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
-    background-image: linear-gradient(to right, #b30c73, #3498db); 
-    -webkit-background-clip: text;
-    color: transparent; 
+    color:beige;
     position:center;
 }
 
