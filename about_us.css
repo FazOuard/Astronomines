@@ -578,6 +578,7 @@ ul{
         flex-direction: column; 
         padding-top: 50px; 
         margin-bottom: 30px; 
+        margin:0; 
     }
 
     .About_us h1 {
