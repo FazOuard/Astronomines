@@ -125,6 +125,7 @@ body {
     -webkit-background-clip: text;
     color: transparent; 
     line-height: 1.5;
+    
 }
 
 .About_us h1:hover {
@@ -202,8 +203,8 @@ body {
 .Nos_evenements {
     padding-left: 48px;
     padding-right: 48px;
-    border-bottom: 0.1rem solid #ccc;
-    padding-bottom: 80px;
+    padding-top:200px;
+    padding-bottom: 100px;
     
 }
 
@@ -219,8 +220,8 @@ body {
     font-variant: normal;
     font-weight: 700;
     line-height: 26.4px;
-    margin-top: 100px;
-    margin-bottom: 70px;
+    
+    
     transition: all 0.3s ease; 
     background-image: linear-gradient(to right, #b30c73, #3498db); 
     -webkit-background-clip: text; 
@@ -231,6 +232,62 @@ body {
     background-position: 100% 0; 
     transform: scale(1.05);
 }
+.Nos_evenements .container{
+    
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    align-items:center;
+
+}
+
+
+.Nos_evenements .container .Cosmomelody,.Cosmonight,.Ajitefhm{
+    height:auto;
+    margin :50px;
+    
+    box-shadow: 0 0 15px rgba(50, 153, 223, 0.5);
+    transition: border-color 0.3s ease, transform 0.3s ease;
+  outline-offset: 2rem;
+  object-fit: cover;
+    
+
+}
+
+
+
+.Nos_evenements .container img{
+    height:auto;
+    width:100%;
+    border-radius: 3px;
+}
+
+.content{
+    height: 100%; 
+    width: 100%;
+    padding:auto;
+    bottom:5px;
+    box-sizing:border-box;
+    position:absolute;
+    opacity:0;
+    color:#ccc;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    background:rgba(0, 0, 0, 0.5);
+    
+}
+.container .Cosmomelody:hover,.Cosmonight:hover,.Ajitefhm:hover{
+  background-position: 100% 0; 
+    transform: scale(1.05);
+    
+}
+.content:hover{
+    opacity:1;
+}
+
+/*
 .Cosmomelody,
 .Cosmonight,
 .Ajitefhm {
@@ -289,9 +346,9 @@ body {
     color: rgb(193, 197, 197);
     
 }
-
+*/
 .contact-us{
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 }
 
 
@@ -563,10 +620,17 @@ ul{
         margin: 20px 0; 
     }
 
-    .Nos_evenements {
-        padding-left: 10px; 
-        padding-right: 10px; 
+    .Nos_evenements .container {
+        display: block; 
+        height:auto;
+
     }
+   
+    .Nos_evenements .container .Cosmomelody,.Cosmonight,.Ajitefhm{
+        height:auto;
+        margin :50px;
+    }
+  
 
     .footer-col {
         width: 100%; 
