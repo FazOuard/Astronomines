@@ -9,6 +9,7 @@
 
 
 header {
+    
     background-color: rgb(29, 14, 26);
     color:#fff;
     position: fixed;
@@ -58,6 +59,8 @@ header ul li a:hover {
     margin-top:-50px; 
     width: 100%;
     position: relative; 
+    
+    
    
     
 }
@@ -595,7 +598,7 @@ ul{
     }
 
     .About_us .video-container {
-        width:100%;
+        width:500px;
          height:auto;
     }
 
@@ -614,7 +617,12 @@ ul{
         margin :50px;
     }
   
-
+    
+    
+    .Nos_evenements .container .Cosmomelody .content,.Cosmonight .content,.Ajitefhm .content{
+        font-size:12px;
+    }
+    
     .footer-col {
         width: 100%; 
         margin-bottom: 20px;
