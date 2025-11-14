@@ -21,7 +21,7 @@
 
 
 <h2 style="color: #6a0dad;">Technologies Used</h2>
-<p style="color: #1e90ff;">HTML, CSS, JavaScript<br>
+<p style="color: #1e90ff;">HTML, CSS, JavaScript <br>
 
 
 <!-- Website Link -->
