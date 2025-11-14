@@ -1,7 +1,6 @@
 <h1 style="color: #6a0dad;">Astronomines Club Website</h1>
 
 
-
 <p style="color: #1e90ff;">This website was developed for the <strong>Astronomines Club</strong> for the <strong>2023/2024</strong> year. It serves as a platform to showcase the club’s activities, astronomical events, and resources for members and visitors.</p>
 <p align="center">
   <img src="logo_astronomines.png" alt="Astronomines Club Logo" width="200">
