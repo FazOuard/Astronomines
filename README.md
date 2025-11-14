@@ -24,5 +24,15 @@
 <p style="color: #1e90ff;">HTML, CSS, JavaScript <br>
 
 
+<!-- Website Link -->
+<p align="center">
+  <a href="https://fazouard.github.io/Astronomines/" target="_blank" style="color: #1e90ff; font-size: 20px; text-decoration: none;">
+    Visit the Official Website
+  </a>
+</p>
 
+<!-- Quote -->
+<p align="center" style="font-style: italic; color: #1e90ff; font-size: 18px; margin-top: 10px;">
+  Fueling imagination
+</p>
 
